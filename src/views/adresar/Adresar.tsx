@@ -1,7 +1,8 @@
+
 export const Adresar = () => {
     return (
-        <>
-            Adresar.
-        </>
+        <div>
+
+        </div>
     )
 }

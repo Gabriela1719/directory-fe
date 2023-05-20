@@ -1,0 +1,46 @@
+.form {
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.85);
+  margin-bottom: -20px;
+  z-index: 1;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.buttonPosition {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 25px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.centerRow {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 25px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -30px;
+}
+
+.button {
+  width: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to bottom right ,#6cb1ff, #0f65c7, #57a1f7, #004997);
+}

@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right ,#095ead, #6bacf7, #004997);
+    position: relative;
+    overflow: hidden;
+  }
+
+.image {
+    width: 900px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 3;
+  }
