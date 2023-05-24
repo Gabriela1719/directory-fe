@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav, Row, Col } from "react-bootstrap";
-import { BoxArrowInRight, People, PersonLinesFill } from "react-bootstrap-icons";
+import { BoxArrowInRight, PersonLinesFill } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
-import styles from './Layout.module.scss';
+import styles from "./Layout.module.scss";
 
 interface LayoutProp {
     children: React.ReactNode;
@@ -40,7 +40,7 @@ export const Layout: React.FC<LayoutProp> = ({ children }) => {
                                     <Navbar.Text className={styles.navText}>
                                         gabi.vidoic@gmail.com
                                     </Navbar.Text>
-                                    <BoxArrowInRight size={25} />
+                                    <BoxArrowInRight style={{ transform: 'scale(1.3)', fontWeight: 'lighter' }} />
                                 </div>
                             </Navbar.Collapse>
                         </Container>
@@ -48,9 +48,9 @@ export const Layout: React.FC<LayoutProp> = ({ children }) => {
                 </Col>
 
             </Row>
-            <Row>
+            <Row className={styles.background}>
                 <Col>
-                    <Container>
+                    <Container fluid>
                         {children}
                     </Container>
                 </Col>

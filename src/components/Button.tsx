@@ -31,7 +31,7 @@ export const Button: React.FC<ButtonProps> = ({
                             as='span'
                             animation='border'
                             size='sm'
-                            variant={variant === 'primary' ? 'white' : 'primary'}
+                            variant={variant === 'primary' ? 'white' : 'light'}
                         />
                     ) : (
                         label
@@ -46,7 +46,7 @@ export const Button: React.FC<ButtonProps> = ({
                     as='span'
                     animation='border'
                     size='sm'
-                    variant={variant === 'primary' ? 'white' : 'primary'}
+                    variant={variant === 'primary' ? 'white' : 'light'}
                 />
             ) : (
                 label

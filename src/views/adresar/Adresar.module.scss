@@ -1,0 +1,14 @@
+@import '../../custom.scss';
+
+.contactTable {
+    border-radius: 7px 7px 0px 0px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans';
+    min-height: 100%;
+    background-color: 'primary';
+}
+
+.addNew {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom right, #6A1D2F, #6A1D2F, #354C3C, #42354C);
+}

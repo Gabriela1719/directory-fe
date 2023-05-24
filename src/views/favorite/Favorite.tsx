@@ -1,5 +1,9 @@
-export const Favorite = () => {
+import { Page } from "../../components/navigation/Page.type";
+
+export const Favorite: Page = () => {
     return (
-        <>Favorite list</>
+        <></>
     )
 }
+
+Favorite.title = 'Favorite Contacts';

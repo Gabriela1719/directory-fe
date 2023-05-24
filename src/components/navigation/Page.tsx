@@ -1,5 +1,10 @@
-import { Container } from "react-bootstrap";
+import React from 'react';
+import { Container } from 'react-bootstrap';
+
 import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+import style from './Page.module.scss';
 
 interface PageProps {
     title?: string;
@@ -8,9 +13,9 @@ interface PageProps {
 
 export const Page: React.FC<PageProps> = ({ title, content }) => (
     <>
-        <Container>
+        <Container className={style.page}>
             <div>
-                <div>{title}</div>
+                <div className={style.title}>{title}</div>
                 <ToastContainer
                     position='top-center'
                     hideProgressBar
@@ -22,4 +27,4 @@ export const Page: React.FC<PageProps> = ({ title, content }) => (
             {content}
         </Container>
     </>
-)
+);

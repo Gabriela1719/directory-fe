@@ -1,5 +1,9 @@
-export const AddNewContact = () => {
+import { Page } from "../../../components/navigation/Page.type"
+
+export const AddNewContact: Page = () => {
     return (
-        <>Add new contact</>
+        <></>
     )
 }
+
+AddNewContact.title = 'Create new Contact.'

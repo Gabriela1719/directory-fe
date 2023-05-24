@@ -1,17 +1,18 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: linear-gradient(to bottom right ,#095ead, #6bacf7, #004997);
-    position: relative;
-    overflow: hidden;
-  }
+@import '../../custom.scss';
 
-.image {
-    width: 900px;
-    margin-top: -50px;
-    position: relative;
-    z-index: 3;
-  }
+.background{
+  background-image: url('../../app/assets/background.jpg');
+  background-size: cover;
+  background-position: center;  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Lucida Sans';
+}

@@ -1,0 +1,17 @@
+@import '../../custom.scss';
+
+div.paginationContainer {
+    display: flex;
+    align-items: center;
+    border-color: black;
+  
+    .totalItems {
+      color: #212529;
+      margin-right: 10px;
+    }
+  
+    .customPagination {
+      margin: 0;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+    }
+  }
