@@ -1,0 +1,38 @@
+@import '../../custom.scss';
+
+.tableHeader {
+  display: flex;
+  align-items: center;
+
+  height: 40px;
+
+  border: 0px transparent;
+}
+
+.tableHeader.withFilterOpen {
+  min-width: 100px;
+  max-width: 120px;
+}
+
+.tableHeader.isInCoverageTable {
+  height: 50px !important;
+}
+
+.columnFilter {
+  height: 30px !important;
+  font-size: 12px;
+}
+
+.closeColumnFilter {
+  width: 30px;
+  height: 30px;
+
+  padding: 7px;
+
+  color: #000;
+  border: 1px solid #ced4da;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+
+  cursor: pointer;
+}

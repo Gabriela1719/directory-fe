@@ -1,0 +1,178 @@
+[
+    {
+      "name": "John",
+      "lastName": "Doe",
+      "dateTime": "2023-05-20T10:30:00",
+      "contactType": "Email",
+      "value": "john.doe@example.com",
+      "favorite": true
+    },
+    {
+      "name": "Jane",
+      "lastName": "Smith",
+      "dateTime": "2023-05-20T14:15:00",
+      "contactType": "Phone",
+      "value": "+1 123-456-7890",
+      "favorite": false
+    },
+    {
+      "name": "Alice",
+      "lastName": "Johnson",
+      "dateTime": "2023-05-20T16:45:00",
+      "contactType": "Email",
+      "value": "alice.johnson@example.com",
+      "favorite": true
+    },
+    {
+      "name": "David",
+      "lastName": "Brown",
+      "dateTime": "2023-05-20T09:00:00",
+      "contactType": "Phone",
+      "value": "+1 987-654-3210",
+      "favorite": true
+    },
+    {
+      "name": "Sarah",
+      "lastName": "Wilson",
+      "dateTime": "2023-05-20T13:30:00",
+      "contactType": "Email",
+      "value": "sarah.wilson@example.com",
+      "favorite": false
+    },
+    {
+      "name": "Michael",
+      "lastName": "Taylor",
+      "dateTime": "2023-05-20T11:45:00",
+      "contactType": "Phone",
+      "value": "+1 555-123-4567",
+      "favorite": true
+    },
+    {
+      "name": "Emily",
+      "lastName": "Anderson",
+      "dateTime": "2023-05-20T15:00:00",
+      "contactType": "Email",
+      "value": "emily.anderson@example.com",
+      "favorite": false
+    },
+    {
+      "name": "Daniel",
+      "lastName": "Clark",
+      "dateTime": "2023-05-20T17:30:00",
+      "contactType": "Phone",
+      "value": "+1 999-888-7777",
+      "favorite": true
+    },
+    {
+      "name": "Olivia",
+      "lastName": "White",
+      "dateTime": "2023-05-20T12:15:00",
+      "contactType": "Email",
+      "value": "olivia.white@example.com",
+      "favorite": false
+    },
+    {
+      "name": "Matthew",
+      "lastName": "Miller",
+      "dateTime": "2023-05-20T18:00:00",
+      "contactType": "Fixni telefon",
+      "value": "+1 777-999-8888",
+      "favorite": true
+    },
+    {
+        "name": "Michael",
+        "lastName": "Taylor",
+        "dateTime": "2023-05-20T11:45:00",
+        "contactType": "Phone",
+        "value": "+1 555-123-4567",
+        "favorite": true
+      },
+      {
+        "name": "Emily",
+        "lastName": "Anderson",
+        "dateTime": "2023-05-20T15:00:00",
+        "contactType": "Email",
+        "value": "emily.anderson@example.com",
+        "favorite": false
+      },
+      {
+        "name": "Daniel",
+        "lastName": "Clark",
+        "dateTime": "2023-05-20T17:30:00",
+        "contactType": "Phone",
+        "value": "+1 999-888-7777",
+        "favorite": true
+      },
+      {
+        "name": "Olivia",
+        "lastName": "White",
+        "dateTime": "2023-05-20T12:15:00",
+        "contactType": "Fixni telefon",
+        "value": "olivia.white@example.com",
+        "favorite": false
+      },
+      {
+        "name": "Matthew",
+        "lastName": "Miller",
+        "dateTime": "2023-05-20T18:00:00",
+        "contactType": "Phone",
+        "value": "+1 777-999-8888",
+        "favorite": true
+      },    {
+        "name": "Emily",
+        "lastName": "Anderson",
+        "dateTime": "2023-05-20T15:00:00",
+        "contactType": "Email",
+        "value": "emily.anderson@example.com",
+        "favorite": false
+      },
+      {
+        "name": "Daniel",
+        "lastName": "Clark",
+        "dateTime": "2023-05-20T17:30:00",
+        "contactType": "Phone",
+        "value": "+1 999-888-7777",
+        "favorite": true
+      },
+      {
+        "name": "Olivia",
+        "lastName": "White",
+        "dateTime": "2023-05-20T12:15:00",
+        "contactType": "Email",
+        "value": "olivia.white@example.com",
+        "favorite": false
+      },
+      {
+        "name": "Matthew",
+        "lastName": "Miller",
+        "dateTime": "2023-05-20T18:00:00",
+        "contactType": "Fixni telefon",
+        "value": "+1 777-999-8888",
+        "favorite": true
+      },
+      {
+          "name": "Michael",
+          "lastName": "Taylor",
+          "dateTime": "2023-05-20T11:45:00",
+          "contactType": "Phone",
+          "value": "+1 555-123-4567",
+          "favorite": true
+        },
+        {
+          "name": "Emily",
+          "lastName": "Anderson",
+          "dateTime": "2023-05-20T15:00:00",
+          "contactType": "Email",
+          "value": "emily.anderson@example.com",
+          "favorite": false
+        },
+        {
+          "name": "Daniel",
+          "lastName": "Clark",
+          "dateTime": "2023-05-20T17:30:00",
+          "contactType": "Phone",
+          "value": "+1 999-888-7777",
+          "favorite": true
+        }
+  ]
+  

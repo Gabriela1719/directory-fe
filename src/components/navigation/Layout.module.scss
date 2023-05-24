@@ -1,25 +1,28 @@
-.navbar {
-    background-image: linear-gradient(to bottom right ,#5ca1eb, #165aa8, #62a1e9, #004997);
-    color: whitesmoke;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-    .navLink {
-        color: whitesmoke;
-          &:hover {
-            color: rgb(219, 219, 219);
-          }
-          &:active {
-            color: rgb(201, 201, 201);
-          }
-      }
-    
-    .navText {
-        color: whitesmoke;
-        padding: 10px;
-      }
+@import '../../custom.scss';
 
-    .navBrand {
-        color: whitesmoke;
-        pointer-events: none;
-      }
+.navbar {
+  color: #42354C;
+  font-family: 'Lucida Sans';
+  border-bottom: 1px solid #aaa7a7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  .navLink {
+    color: rgb(53, 44, 44);
+    &:hover {
+      color: #42354C;
+    }
+    &:active {
+      color: rgb(82, 63, 63);
+    }
+  }
+
+  .navText {
+    color: #42354C;
+    padding: 10px;
+  }
+
+  .navBrand {
+    color: #42354C;
+    pointer-events: none;
+  }
 }

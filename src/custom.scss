@@ -1,0 +1,19 @@
+$theme-colors: (
+  'email': #6A1D2F,
+  'phone': #df946a,
+  'fixni': #354C3C,
+  'light': #faf4e8,
+  'primary': #4e111f,
+);
+
+.page-item.active > .page-link {
+  background-color: map-get($theme-colors, $key: 'primary');
+  border-color: map-get($theme-colors, $key: 'primary');
+  color: #fff;
+}
+
+.page-item > .page-link {
+  color: black;
+}
+
+@import "~bootstrap/scss/bootstrap";
